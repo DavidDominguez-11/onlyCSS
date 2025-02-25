@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    font-family: system-ui;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #606060;
+    flex-direction: column;
+}
+
+
+/*stilos de la cabeza completa*/
+.eyes {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    gap: 80px;
+}
+
+.eyes .eye {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-top: 50px;
+    
+}
+
+.smile {
+    background-color: rgba(0, 0, 0, 0);
+    width: 40px;
+    height: 30px;
+    border-radius: 100%;
+    border-bottom:3px solid #000000;
+}
+
+.gorro {
+    background-color: white;
+    width: 240px;
+    height: 200px;
+    border-radius: 0% 0% 3% 3% / 9% 13% 47% 43% ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orejas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.oreja{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 32% 46% 0% 0% / 80% 100% 0% 0% ;
+    
+}
+
+.cabeza {
+    background-color: rgb(234, 205, 176);
+    width: 190px;
+    height: 150px;
+    border-radius: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+}
+/*stilos de la cabeza completa*/

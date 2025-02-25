@@ -81,3 +81,50 @@
     flex-direction: column;
 }
 /*stilos de la cabeza completa*/
+
+/*estilos del cuerpo, brazos y tronco completo*/
+
+.cuerpa{
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.arm {
+    background: rgb(37,159,225);
+    background: linear-gradient(180deg, rgba(37,159,225,1) 0%, rgba(37,159,225,1) 30%, rgba(234,205,176,1) 30%, rgba(234,205,176,1) 100%);
+
+    width: 50px;
+    height: 240px;
+
+    margin-top: 35px;
+
+    border-radius: 50px;
+    
+}
+
+.cuerpa .left{
+    transform: rotate(10deg);
+}
+.cuerpa .right{
+    transform: rotate(-10deg);
+}
+
+.mochila {
+    background-color: #77e15a;
+    width: 30px;
+    height: 80px;
+    margin-top: 5px;
+}
+
+.chest {
+    background-color: #259fe1;
+    width: 240px;
+    height: 300px;
+    border-radius: 5px 5px 0 0;
+}
+
+/*estilos del cuerpo, brazos y tronco completo*/
+

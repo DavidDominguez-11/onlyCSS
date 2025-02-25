@@ -128,3 +128,63 @@
 
 /*estilos del cuerpo, brazos y tronco completo*/
 
+/*estilos para parte inferior, piernas y cinto*/
+
+.legs{
+    width: 240px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.cinto {
+    background-color: #183e99;
+    width: 240px;
+    height: 80px;
+}
+
+.piernas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.piernas .leg {
+    width: auto;
+    height: auto;
+}
+
+.pierna {
+    background: rgb(24,62,153);
+    background: linear-gradient(180deg, rgba(24,62,153,1) 0%, rgba(24,62,153,1) 20%, rgba(234,205,176,1) 20%, rgba(234,205,176,1) 100%);
+    width: 70px;
+    height: 300px;
+}
+
+.leg {
+    flex-direction: column;
+}
+
+.calceta {
+    background-color: #fff;
+    width: 70px;
+    height: 15px;
+    border-radius: 0 0 10px 10px;
+}
+
+.pies {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.feet {
+    background-color: black;
+    border-radius: 100px;
+    width: 110px;
+    height: 50px;
+}
+/*estilos para parte inferior, piernas y cinto*/
+
+
